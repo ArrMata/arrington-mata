@@ -7,4 +7,6 @@
 	src: url('../public/fonts/Manrope-VariableFont_wght.ttf');
 }
 
-body {}
+main {
+	height: calc(100dvh - 3.5rem);
+}
