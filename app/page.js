@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Greeting from './components/Greeting'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
+import Applications from './components/Applications'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Greeting />
       <AboutMe />
       <Experience />
+      <Applications />
     </main>
   )
 }
