@@ -3,6 +3,7 @@ import Greeting from './components/Greeting'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
 import Applications from './components/Applications'
+import Contact from './components/Contact'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <AboutMe />
       <Experience />
       <Applications />
+      <Contact />
     </main>
   )
 }
