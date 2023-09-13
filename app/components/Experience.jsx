@@ -13,9 +13,9 @@ import csharpLogo from '../../public/imgs/technologies/csharp.png'
 import dotnetLogo from '../../public/imgs/technologies/dotnet.png'
 import mysqlLogo from '../../public/imgs/technologies/mysql.png'
 
-function Experience() {
+function Experience({ experienceRef }) {
 	return (
-		<div className='h-full w-full'>
+		<div ref={experienceRef} className='h-full w-full'>
 			<div className='w-1/2 mx-auto'>
 				<div className='w-full py-4 px-4 rounded border-b-4 border-primary'>
 					<h2 className='text-text text-5xl font-bold leading-relaxed'>Experience</h2>

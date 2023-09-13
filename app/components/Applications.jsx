@@ -7,9 +7,9 @@ import Link from 'next/link'
 import Icon from '@mdi/react'
 import { mdiGithub, mdiWeb } from '@mdi/js'
 
-function Applications() {
+function Applications({ applicationsRef }) {
 	return (
-		<div className="w-full mt-36">
+		<div ref={applicationsRef} className="w-full mt-36">
 			<div className="w-5/6 mx-auto">
 				<div className="border-b-2 w-fit pb-3 border-primary rounded">
 					<h2 className="text-text font-bold text-6xl">Applications</h2>
@@ -155,15 +155,14 @@ function Applications() {
 				}
 				<div className='flex my-36 px-2 items-center'>
 					<div className='me-6 md:w-1/2'>
-						<h3 className='text-text font-bold text-5xl mx-4'>Tower</h3>
-						<p className='text-text font-bold text-2xl my-4 mx-4'>Vue | ExpressJS | MongoDB</p>
+						<h3 className='text-text font-bold text-5xl mx-4'>Network</h3>
+						<p className='text-text font-bold text-2xl my-4 mx-4'>Vue | Auth0 | REST API</p>
 						<div className='w-full bg-primary bg-opacity-40 rounded py-4 px-8'>
 							<p className='text-text text-xl mt-4 leading-loose'>
-								Tower is a full-stack web application where users can post, comment on and attend events.
-								When a user attends, it adds them to the attendee list and
-								allows also adds it to their own personal list of events they&#39;re attending, which is viewable on the user&#39;s account page.
+								Network is a social media client-side application utilizing VueJS and Boise Codeworks&#39; Network API allowing for posts and user profiles.
+								Network was my first big Vue project, allowing me to get very comfortable with Vue&#39;s workflow.
 							</p>
-							<div className='flex justify-end mt-3'>
+							<div className='flex mt-3'>
 								<Link href="https://github.com/ArrMata/bcw-2023summer-network">
 									<Icon
 										path={mdiGithub}
@@ -186,7 +185,7 @@ function Applications() {
 					<Link href="https://network.arringtonm.com" className='w-full md:w-1/2'>
 						<Image
 							src={networkPicture}
-							alt="Tower Preview Picture"
+							alt="Network Preview Picture"
 							className='rounded grayscale transition-all shadow-md
 							hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75'
 						/>

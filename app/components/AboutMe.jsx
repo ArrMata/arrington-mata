@@ -4,9 +4,9 @@ import pcGaming from '../../public/imgs/pc-gaming.png'
 import uciLogo from '../../public/imgs/uci-logo.svg'
 import cwLogo from '../../public/imgs/cw-logo.png'
 
-function AboutMe() {
+function AboutMe({ aboutRef }) {
 	return (
-		<div className='h-full w-full'>
+		<div ref={aboutRef} className='h-full w-full'>
 			<div className='border-l-2 md:border-l-4 border-primary px-4 py-2 rounded w-5/6 md:w-3/4 mx-auto font-manrope text-text my-6'>
 				<h2 className='text-5xl font-bold'>About Me</h2>
 				<p className='text-xl md:text-2xl my-6'>

@@ -1,19 +1,34 @@
-import Image from 'next/image'
+"use client"
 import Greeting from './components/Greeting'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
 import Applications from './components/Applications'
 import Contact from './components/Contact'
+import Header from './components/Header'
+import { useRef } from 'react'
 
 export default function Home() {
+  const aboutRef = useRef(null);
+  const experienceRef = useRef(null);
+  const applicationsRef = useRef(null);
+  const contactRef = useRef(null);
+
   return (
-    <main className="bg-background">
-      <Greeting />
-      <AboutMe />
-      <Experience />
-      <Applications />
-      <Contact />
-    </main>
+    <>
+      <Header
+        aboutRef={aboutRef}
+        experienceRef={experienceRef}
+        applicationsRef={applicationsRef}
+        contactRef={contactRef}
+      />
+      <main className="bg-background">
+        <Greeting />
+        <AboutMe aboutRef={aboutRef} />
+        <Experience experienceRef={experienceRef} />
+        <Applications applicationsRef={applicationsRef} />
+        <Contact contactRef={contactRef} />
+      </main>
+    </>
   )
 }
 
