@@ -67,25 +67,25 @@ function Experience({ experienceRef }) {
 			<div className='w-1/2 mx-auto rounded-md justify-center items-center flex'>
 				<div className='flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-5 mx-4'>
 					<Image src={htmlLogo}
-						alt='React Image'
+						alt='HTML Image'
 						className='object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200'
 					/>
 				</div>
 				<div className='flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-5 mx-4'>
 					<Image src={cssLogo}
-						alt='React Image'
+						alt='CSS Image'
 						className='object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200'
 					/>
 				</div>
 				<div className='flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-2 mx-4'>
 					<Image src={jsLogo}
-						alt='React Image'
+						alt='JavaScript Image'
 						className='object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200'
 					/>
 				</div>
 				<div className='flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-5 mx-4'>
 					<Image src={sassLogo}
-						alt='React Image'
+						alt='SASS Image'
 						className='object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200'
 					/>
 				</div>
@@ -99,25 +99,25 @@ function Experience({ experienceRef }) {
 			<div className='w-1/2 mt-6 mx-auto rounded-md justify-center items-center flex'>
 				<div className='flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-6 mx-4'>
 					<Image src={pythonLogo}
-						alt='React Image'
+						alt='Python Image'
 						className='object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200'
 					/>
 				</div>
 				<div className='flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-6 mx-4'>
 					<Image src={csharpLogo}
-						alt='React Image'
+						alt='C# Image'
 						className='object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200'
 					/>
 				</div>
 				<div className='flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full mx-4'>
 					<Image src={dotnetLogo}
-						alt='React Image'
+						alt='.NET Image'
 						className='object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200'
 					/>
 				</div>
 				<div className='flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-5 mx-4'>
 					<Image src={mysqlLogo}
-						alt='React Image'
+						alt='MySQL Image'
 						className='object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200'
 					/>
 				</div>

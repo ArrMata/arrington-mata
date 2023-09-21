@@ -19,7 +19,7 @@ function Applications({ applicationsRef }) {
 					//#region Jabb Block
 				}
 				<div className='flex mt-6 px-2 items-center'>
-					<Link href="https://jabb.arringtonm.com" className='w-full md:w-1/2'>
+					<Link href="https://jabb-bookclub.onrender.com" className='w-full md:w-1/2'>
 						<Image
 							src={jabbPicture}
 							alt="Jabb Preview Picture"
@@ -45,7 +45,7 @@ function Applications({ applicationsRef }) {
 										className='text-text hover:text-orange-500 transition-all me-2'
 									/>
 								</Link>
-								<Link href="https://jabb.arringtonm.com">
+								<Link href="https://jabb-bookclub.onrender.com">
 									<Icon
 										path={mdiWeb}
 										title='Live Demo Link'
@@ -109,7 +109,7 @@ function Applications({ applicationsRef }) {
 					//#region Tower Block
 				}
 				<div className='flex my-36 px-2 items-center'>
-					<Link href="https://tower.arringtonm.com" className='w-full md:w-1/2'>
+					<Link href="https://arrington-tower.onrender.com" className='w-full md:w-1/2'>
 						<Image
 							src={towerPicture}
 							alt="Tower Preview Picture"
@@ -135,7 +135,7 @@ function Applications({ applicationsRef }) {
 										className='text-text hover:text-orange-500 transition-all me-2'
 									/>
 								</Link>
-								<Link href="https://tower.arringtonm.com">
+								<Link href="https://arrington-tower.onrender.com">
 									<Icon
 										path={mdiWeb}
 										title='Live Demo Link'
@@ -171,7 +171,7 @@ function Applications({ applicationsRef }) {
 										className='text-text hover:text-orange-500 transition-all me-2'
 									/>
 								</Link>
-								<Link href="https://network.arringtonm.com">
+								<Link href="https://the-network-fgx0.onrender.com">
 									<Icon
 										path={mdiWeb}
 										title='Live Demo Link'
@@ -182,7 +182,7 @@ function Applications({ applicationsRef }) {
 							</div>
 						</div>
 					</div>
-					<Link href="https://network.arringtonm.com" className='w-full md:w-1/2'>
+					<Link href="https://the-network-fgx0.onrender.com" className='w-full md:w-1/2'>
 						<Image
 							src={networkPicture}
 							alt="Network Preview Picture"

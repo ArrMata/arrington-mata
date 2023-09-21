@@ -634,7 +634,7 @@ function Experience({ experienceRef }) {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-5 mx-4",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: html,
-                            alt: "React Image",
+                            alt: "HTML Image",
                             className: "object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200"
                         })
                     }),
@@ -642,7 +642,7 @@ function Experience({ experienceRef }) {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-5 mx-4",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: css,
-                            alt: "React Image",
+                            alt: "CSS Image",
                             className: "object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200"
                         })
                     }),
@@ -650,7 +650,7 @@ function Experience({ experienceRef }) {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-2 mx-4",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: javascript,
-                            alt: "React Image",
+                            alt: "JavaScript Image",
                             className: "object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200"
                         })
                     }),
@@ -658,7 +658,7 @@ function Experience({ experienceRef }) {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-5 mx-4",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: sass,
-                            alt: "React Image",
+                            alt: "SASS Image",
                             className: "object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200"
                         })
                     })
@@ -671,7 +671,7 @@ function Experience({ experienceRef }) {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-6 mx-4",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: python,
-                            alt: "React Image",
+                            alt: "Python Image",
                             className: "object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200"
                         })
                     }),
@@ -679,7 +679,7 @@ function Experience({ experienceRef }) {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-6 mx-4",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: csharp,
-                            alt: "React Image",
+                            alt: "C# Image",
                             className: "object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200"
                         })
                     }),
@@ -687,7 +687,7 @@ function Experience({ experienceRef }) {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full mx-4",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: dotnet,
-                            alt: "React Image",
+                            alt: ".NET Image",
                             className: "object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200"
                         })
                     }),
@@ -695,7 +695,7 @@ function Experience({ experienceRef }) {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-5 mx-4",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: mysql,
-                            alt: "React Image",
+                            alt: "MySQL Image",
                             className: "object-contain w-full h-full grayscale hover:grayscale-0 transition-all duration-200"
                         })
                     })
@@ -748,7 +748,7 @@ function Applications({ applicationsRef }) {
                     className: "flex mt-6 px-2 items-center",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                            href: "https://jabb.arringtonm.com",
+                            href: "https://jabb-bookclub.onrender.com",
                             className: "w-full md:w-1/2",
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 src: jabbpreview,
@@ -787,7 +787,7 @@ function Applications({ applicationsRef }) {
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                    href: "https://jabb.arringtonm.com",
+                                                    href: "https://jabb-bookclub.onrender.com",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx((Icon_default()), {
                                                         path: mdi/* mdiWeb */.m5Y,
                                                         title: "Live Demo Link",
@@ -866,7 +866,7 @@ function Applications({ applicationsRef }) {
                     className: "flex my-36 px-2 items-center",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                            href: "https://tower.arringtonm.com",
+                            href: "https://arrington-tower.onrender.com",
                             className: "w-full md:w-1/2",
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 src: towerpreview,
@@ -905,7 +905,7 @@ function Applications({ applicationsRef }) {
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                    href: "https://tower.arringtonm.com",
+                                                    href: "https://arrington-tower.onrender.com",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx((Icon_default()), {
                                                         path: mdi/* mdiWeb */.m5Y,
                                                         title: "Live Demo Link",
@@ -955,7 +955,7 @@ function Applications({ applicationsRef }) {
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                                    href: "https://network.arringtonm.com",
+                                                    href: "https://the-network-fgx0.onrender.com",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx((Icon_default()), {
                                                         path: mdi/* mdiWeb */.m5Y,
                                                         title: "Live Demo Link",
@@ -970,7 +970,7 @@ function Applications({ applicationsRef }) {
                             ]
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                            href: "https://network.arringtonm.com",
+                            href: "https://the-network-fgx0.onrender.com",
                             className: "w-full md:w-1/2",
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 src: networkpreview,
@@ -1117,11 +1117,25 @@ function Home() {
                         contactRef: contactRef
                     })
                 ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
+                className: "w-1/2 mx-auto flex flex-col items-center",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: "text-sm text-gray-400",
+                        children: "Made with NextJS and Tailwind CSS"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        className: "text-sm text-gray-400",
+                        href: "https://www.flaticon.com/free-icons/game-development",
+                        title: "game-development icons",
+                        children: "Game-development icons created by juicy_fish - Flaticon"
+                    })
+                ]
             })
         ]
     });
 } // Credit Icon in footer later
- // <a href="https://www.flaticon.com/free-icons/game-development" title="game-development icons">Game-development icons created by juicy_fish - Flaticon</a>
 
 
 /***/ }),
