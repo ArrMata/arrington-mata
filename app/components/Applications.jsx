@@ -10,26 +10,26 @@ import { mdiGithub, mdiWeb } from '@mdi/js'
 function Applications({ applicationsRef }) {
 	return (
 		<div ref={applicationsRef} className="w-full mt-36">
-			<div className="w-5/6 mx-auto">
+			<div className="w-11/12 lg:w-5/6 mx-auto">
 				<div className="border-b-2 w-fit pb-3 border-primary rounded">
-					<h2 className="text-text font-bold text-6xl">Applications</h2>
-					<h2 className="text-text text-2xl mt-4">Here is some of my work, with live demos and source code</h2>
+					<h2 className="text-text font-bold text-5xl lg:text-6xl">Applications</h2>
+					<h2 className="text-text text-xl mt-4">Here is some of my work, with live demos and source code</h2>
 				</div>
 				{
 					//#region Jabb Block
 				}
-				<div className='flex mt-6 px-2 items-center'>
-					<Link href="https://jabb-bookclub.onrender.com" className='w-full md:w-1/2'>
+				<div className='flex flex-col lg:flex-row mt-6 px-2 items-center'>
+					<Link href="https://jabb-bookclub.onrender.com" className='w-full lg:w-1/2'>
 						<Image
 							src={jabbPicture}
 							alt="Jabb Preview Picture"
-							className='rounded grayscale transition-all shadow-md
-							hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75'
+							className='rounded lg:grayscale transition-all shadow-md
+							lg:hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75'
 						/>
 					</Link>
-					<div className='ms-6 md:w-1/2'>
-						<h3 className='text-text font-bold text-5xl mx-4'>Jabb Bookclub</h3>
-						<p className='text-text font-bold text-2xl my-4 mx-4'>Vue | ExpressJS | MongoDB | Google Books API</p>
+					<div className='lg:ms-6 ms-0 w-full lg:w-1/2 '>
+						<h3 className='text-text font-bold text-3xl lg:text-5xl mt-4 lg:mt-0 mx-4'>Jabb Bookclub</h3>
+						<p className='text-text font-bold text-lg lg:text-2xl my-4 mx-4'>Vue | ExpressJS | MongoDB | Google Books API</p>
 						<div className='w-full bg-primary bg-opacity-40 rounded py-4 px-8'>
 							<p className='text-text text-xl mt-4 leading-loose'>
 								Jabb Bookclub is a full-stack application that allows users to create communities with bookclubs.
@@ -63,10 +63,10 @@ function Applications({ applicationsRef }) {
 				{
 					//#region Keepr Block
 				}
-				<div className='flex my-36 px-2 items-center'>
-					<div className='me-6 md:w-1/2'>
-						<h3 className='text-text font-bold text-5xl mx-4'>Keepr</h3>
-						<p className='text-text font-bold text-2xl my-4 mx-4'>.NET | C# | MySQL | Vue</p>
+				<div className='flex flex-col lg:flex-row my-24 lg:my-36 px-2 items-center'>
+					<div className='lg:me-6 w-full lg:w-1/2'>
+						<h3 className='text-text font-bold text-3xl lg:text-5xl mx-4 mt-4 lg:mt-0'>Keepr</h3>
+						<p className='text-text font-bold text-lg lg:text-2xl my-4 mx-4'>.NET | C# | MySQL | Vue</p>
 						<div className='w-full bg-primary bg-opacity-40 rounded py-4 px-8'>
 							<p className='text-text text-xl mt-4 leading-loose'>
 								Keepr is a Pinterest style full-stack web-application, with the ability to share pictures with captions to everyone on the site.
@@ -93,12 +93,12 @@ function Applications({ applicationsRef }) {
 							</div>
 						</div>
 					</div>
-					<Link href="https://keepr.arringtonm.com" className='w-full md:w-1/2'>
+					<Link href="https://keepr.arringtonm.com" className='-order-1 lg:order-2 w-full lg:w-1/2'>
 						<Image
 							src={keeprPicture}
 							alt="Keepr Preview Picture"
-							className='rounded grayscale transition-all shadow-md
-							hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75'
+							className='rounded lg:grayscale transition-all shadow-md
+							lg:hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75'
 						/>
 					</Link>
 				</div>
@@ -108,18 +108,18 @@ function Applications({ applicationsRef }) {
 				{
 					//#region Tower Block
 				}
-				<div className='flex my-36 px-2 items-center'>
-					<Link href="https://arrington-tower.onrender.com" className='w-full md:w-1/2'>
+				<div className='flex flex-col lg:flex-row my-24 lg:my-36 px-2 items-center'>
+					<Link href="https://arrington-tower.onrender.com" className='w-full lg:w-1/2'>
 						<Image
 							src={towerPicture}
 							alt="Tower Preview Picture"
-							className='rounded grayscale transition-all shadow-md
-							hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75'
+							className='rounded lg:grayscale transition-all shadow-md
+							lg:hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75'
 						/>
 					</Link>
-					<div className='ms-6 md:w-1/2'>
-						<h3 className='text-text font-bold text-5xl mx-4'>Tower</h3>
-						<p className='text-text font-bold text-2xl my-4 mx-4'>Vue | ExpressJS | MongoDB</p>
+					<div className='lg:ms-6 w-full lg:w-1/2'>
+						<h3 className='text-text font-bold text-3xl lg:text-5xl mx-4 mt-4 lg:mt-0'>Tower</h3>
+						<p className='text-text font-bold text-lg lg:text-2xl my-4 mx-4'>Vue | ExpressJS | MongoDB</p>
 						<div className='w-full bg-primary bg-opacity-40 rounded py-4 px-8'>
 							<p className='text-text text-xl mt-4 leading-loose'>
 								Tower is a full-stack web application where users can post, comment on and attend events.
@@ -151,12 +151,12 @@ function Applications({ applicationsRef }) {
 					//#endregion
 				}
 				{
-					//#region Tower Block
+					//#region Network Block
 				}
-				<div className='flex my-36 px-2 items-center'>
-					<div className='me-6 md:w-1/2'>
-						<h3 className='text-text font-bold text-5xl mx-4'>Network</h3>
-						<p className='text-text font-bold text-2xl my-4 mx-4'>Vue | Auth0 | REST API</p>
+				<div className='flex flex-col lg:flex-row my-24 lg:my-36 px-2 items-center'>
+					<div className='me-0 lg:me-6 lg:w-1/2'>
+						<h3 className='text-text font-bold text-3xl lg:text-5xl mx-4 mt-4 lg:mt-0'>Network</h3>
+						<p className='text-text font-bold text-lg lg:text-2xl my-4 mx-4'>Vue | Auth0 | REST API</p>
 						<div className='w-full bg-primary bg-opacity-40 rounded py-4 px-8'>
 							<p className='text-text text-xl mt-4 leading-loose'>
 								Network is a social media client-side application utilizing VueJS and Boise Codeworks&#39; Network API allowing for posts and user profiles.
@@ -182,12 +182,12 @@ function Applications({ applicationsRef }) {
 							</div>
 						</div>
 					</div>
-					<Link href="https://the-network-fgx0.onrender.com" className='w-full md:w-1/2'>
+					<Link href="https://the-network-fgx0.onrender.com" className='-order-1 lg:order-2 w-full lg:w-1/2'>
 						<Image
 							src={networkPicture}
 							alt="Network Preview Picture"
-							className='rounded grayscale transition-all shadow-md
-							hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75'
+							className='rounded lg:grayscale transition-all shadow-md
+							lg:hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75'
 						/>
 					</Link>
 				</div>

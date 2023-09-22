@@ -28,13 +28,11 @@ export default function Home() {
         <Applications applicationsRef={applicationsRef} />
         <Contact contactRef={contactRef} />
       </main>
-      <footer className='w-1/2 mx-auto flex flex-col items-center'>
-        <p className='text-sm text-gray-400'>Made with NextJS and Tailwind CSS</p>
-        <a className='text-sm text-gray-400' href="https://www.flaticon.com/free-icons/game-development" title="game-development icons">Game-development icons created by juicy_fish - Flaticon</a>
+      <footer className='w-11/12 lg:w-1/2 mx-auto flex flex-col items-center py-10'>
+        <p className='text-xs lg:text-sm text-gray-400'>Made with NextJS and Tailwind CSS by Arrington Mata</p>
+        <a className='text-xs lg:text-sm text-gray-400' href="https://www.flaticon.com/free-icons/game-development" title="game-development icons">Game-development icons created by juicy_fish - Flaticon</a>
       </footer>
     </>
   )
 }
 
-
-// Credit Icon in footer later

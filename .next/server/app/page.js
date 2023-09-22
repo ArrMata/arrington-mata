@@ -395,24 +395,24 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 function Greeting({ greetingRef }) {
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         ref: greetingRef,
-        className: "flex h-full w-full text-text pt-24",
+        className: "flex h-screen w-full text-text pt-12",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "px-6 py-24 md:px-24",
+            className: "px-6 py-24 lg:px-24",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                    className: "text-xl leading-relaxed md:text-4xl md:leading-snug",
+                    className: "text-xl leading-relaxed lg:text-4xl lg:leading-snug",
                     children: "Hello There,"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                    className: "text-3xl leading-relaxed md:text-6xl font-bold md:leading-snug",
+                    className: "text-3xl leading-relaxed lg:text-6xl font-bold lg:leading-snug",
                     children: "I'm Arrington Mata."
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                    className: "text-3xl leading-relaxed md:text-6xl font-bold md:leading-snug text-gradient",
+                    className: "text-3xl leading-relaxed lg:text-6xl font-bold lg:leading-snug text-gradient",
                     children: "Full-stack developer."
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                    className: "text-xl leading-relaxed md:text-4xl md:leading-snug",
+                    className: "text-xl leading-relaxed lg:text-4xl lg:leading-snug",
                     children: [
                         "I design and build web applications with a focus ",
                         /*#__PURE__*/ jsx_runtime_.jsx("br", {
@@ -469,20 +469,20 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 function AboutMe({ aboutRef }) {
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         ref: aboutRef,
-        className: "h-full w-full",
+        className: "flex h-screen w-full items-center",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "border-l-2 md:border-l-4 border-primary px-4 py-2 rounded w-5/6 md:w-3/4 mx-auto font-manrope text-text my-6",
+            className: "border-l-2 lg:border-l-4 border-primary px-4 py-2 rounded w-11/12 lg:w-3/4 mx-auto font-manrope text-text my-6",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                     className: "text-5xl font-bold",
                     children: "About Me"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                    className: "text-xl md:text-2xl my-6",
+                    className: "text-lg lg:text-2xl my-6",
                     children: "Hi there, I’m Arrington Mata and I’m a full-stack web developer! Being an avid PC gamer, I felt an affinity to technology, so I decided to pick up programming by taking a Computer Science class in high school and fell in love with being able to create with lines of code."
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                    className: "text-xl md:text-2xl",
+                    className: "text-lg lg:text-2xl",
                     children: "After a little bit of time at University of California, Irvine, working towards a Computer Science degree, I decided I wanted to hop straight to building applications. So, I graduated from Boise Codeworks with app development experience, and now aspire to be in a career that lets me channel my creativity through making amazing experiences through web development."
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -491,17 +491,17 @@ function AboutMe({ aboutRef }) {
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: pc_gaming,
                             alt: "computer image",
-                            className: "grayscale hover:grayscale-0 transition-all duration-200 w-1/3 md:w-1/6 aspect-square"
+                            className: "lg:grayscale lg:hover:grayscale-0 transition-all duration-200 w-1/3 lg:w-1/6 aspect-square"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: uci_logo,
                             alt: "University of California, Irvine logo",
-                            className: "grayscale hover:grayscale-0 transition-all duration-200 w-1/3 md:w-1/6 mx-6 aspect-square"
+                            className: "lg:grayscale lg:hover:grayscale-0 transition-all duration-200 w-1/3 lg:w-1/6 mx-6 aspect-square"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: cw_logo,
                             alt: "Codeworks Logo",
-                            className: "grayscale hover:grayscale-0 transition-all duration-200 w-1/3 md:w-1/6 aspect-square"
+                            className: "lg:grayscale lg:hover:grayscale-0 transition-all duration-200 w-1/3 lg:w-1/6 aspect-square"
                         })
                     ]
                 })
@@ -556,10 +556,10 @@ function AboutMe({ aboutRef }) {
 function Experience({ experienceRef }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         ref: experienceRef,
-        className: "h-full w-full",
+        className: "flex flex-col justify-center lg:my-0 my-12 lg:h-screen w-full",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "w-1/2 mx-auto",
+                className: "w-11/12 lg:w-1/2 mx-auto",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                     className: "w-full py-4 px-4 rounded border-b-4 border-primary",
                     children: [
@@ -568,7 +568,7 @@ function Experience({ experienceRef }) {
                             children: "Experience"
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                            className: "text-text text-3xl",
+                            className: "text-text text-xl lg:text-3xl",
                             children: [
                                 "I've been programming for 5 years,  ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
@@ -576,14 +576,14 @@ function Experience({ experienceRef }) {
                             ]
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            className: "text-text text-3xl",
+                            className: "text-text text-xl lg:text-3xl",
                             children: "Here's some technologies I have worked with during my career!"
                         })
                     ]
                 })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "w-3/5 mx-auto rounded-md mt-6 justify-between items-center flex p-6",
+                className: "hidden lg:flex w-3/5 mx-auto rounded-md justify-between items-center my-6",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "flex items-center w-1/5 aspect-square bg-black bg-opacity-60 rounded-full p-8 mx-2",
@@ -628,7 +628,7 @@ function Experience({ experienceRef }) {
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "w-1/2 mx-auto rounded-md justify-center items-center flex",
+                className: "hidden lg:flex w-1/2 mx-auto rounded-md justify-center items-center",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-5 mx-4",
@@ -665,7 +665,7 @@ function Experience({ experienceRef }) {
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "w-1/2 mt-6 mx-auto rounded-md justify-center items-center flex",
+                className: "hidden lg:flex w-1/2 mt-6 mx-auto rounded-md justify-center items-center",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "flex items-center w-1/6 aspect-square bg-black bg-opacity-60 rounded-full p-6 mx-4",
@@ -700,6 +700,135 @@ function Experience({ experienceRef }) {
                         })
                     })
                 ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex lg:hidden w-11/12 mx-auto rounded-md justify-center items-center my-6",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-3 md:p-5 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: react,
+                            alt: "React Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-3 md:p-5 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: nodejs,
+                            alt: "Node Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-3 md:p-5 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: mongodb,
+                            alt: "MongoDb Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex lg:hidden w-11/12 mx-auto rounded-md justify-center items-center mb-6",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-3 md:p-8 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: express,
+                            alt: "Express Image",
+                            className: "object-contain w-full h-full invert"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-5 md:p-8 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: vue,
+                            alt: "Vue Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-3 md:p-8 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: html,
+                            alt: "HTML Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex lg:hidden w-11/12 mx-auto rounded-md justify-center items-center mb-4",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-3 md:p-8 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: css,
+                            alt: "CSS Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-1 md:p-2 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: javascript,
+                            alt: "JavaScript Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-3 md:p-8 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: sass,
+                            alt: "Sass Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex lg:hidden w-11/12 mx-auto rounded-md justify-center items-center mb-4",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-5 md:p-7 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: python,
+                            alt: "Python Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4 aspect-square bg-black bg-opacity-60 rounded-full p-5 md:p-7 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: csharp,
+                            alt: "C# Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex lg:hidden w-11/12 mx-auto rounded-md justify-center items-center",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4  aspect-square bg-black bg-opacity-60 rounded-full p-3 md:p-2 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: dotnet,
+                            alt: ".NET Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "flex items-center w-1/3 md:w-1/4  aspect-square bg-black bg-opacity-60 rounded-full p-1 md:p-4 mx-2",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: mysql,
+                            alt: "MySQL Image",
+                            className: "object-contain w-full h-full"
+                        })
+                    })
+                ]
             })
         ]
     });
@@ -729,42 +858,42 @@ function Applications({ applicationsRef }) {
         ref: applicationsRef,
         className: "w-full mt-36",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "w-5/6 mx-auto",
+            className: "w-11/12 lg:w-5/6 mx-auto",
             children: [
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                     className: "border-b-2 w-fit pb-3 border-primary rounded",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                            className: "text-text font-bold text-6xl",
+                            className: "text-text font-bold text-5xl lg:text-6xl",
                             children: "Applications"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                            className: "text-text text-2xl mt-4",
+                            className: "text-text text-xl mt-4",
                             children: "Here is some of my work, with live demos and source code"
                         })
                     ]
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "flex mt-6 px-2 items-center",
+                    className: "flex flex-col lg:flex-row mt-6 px-2 items-center",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                             href: "https://jabb-bookclub.onrender.com",
-                            className: "w-full md:w-1/2",
+                            className: "w-full lg:w-1/2",
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 src: jabbpreview,
                                 alt: "Jabb Preview Picture",
-                                className: "rounded grayscale transition-all shadow-md          hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75"
+                                className: "rounded lg:grayscale transition-all shadow-md          lg:hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75"
                             })
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "ms-6 md:w-1/2",
+                            className: "lg:ms-6 ms-0 w-full lg:w-1/2 ",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                    className: "text-text font-bold text-5xl mx-4",
+                                    className: "text-text font-bold text-3xl lg:text-5xl mt-4 lg:mt-0 mx-4",
                                     children: "Jabb Bookclub"
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: "text-text font-bold text-2xl my-4 mx-4",
+                                    className: "text-text font-bold text-lg lg:text-2xl my-4 mx-4",
                                     children: "Vue | ExpressJS | MongoDB | Google Books API"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -804,17 +933,17 @@ function Applications({ applicationsRef }) {
                     ]
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "flex my-36 px-2 items-center",
+                    className: "flex flex-col lg:flex-row my-24 lg:my-36 px-2 items-center",
                     children: [
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "me-6 md:w-1/2",
+                            className: "lg:me-6 w-full lg:w-1/2",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                    className: "text-text font-bold text-5xl mx-4",
+                                    className: "text-text font-bold text-3xl lg:text-5xl mx-4 mt-4 lg:mt-0",
                                     children: "Keepr"
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: "text-text font-bold text-2xl my-4 mx-4",
+                                    className: "text-text font-bold text-lg lg:text-2xl my-4 mx-4",
                                     children: ".NET | C# | MySQL | Vue"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -853,36 +982,36 @@ function Applications({ applicationsRef }) {
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                             href: "https://keepr.arringtonm.com",
-                            className: "w-full md:w-1/2",
+                            className: "-order-1 lg:order-2 w-full lg:w-1/2",
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 src: keeprpreview,
                                 alt: "Keepr Preview Picture",
-                                className: "rounded grayscale transition-all shadow-md          hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75"
+                                className: "rounded lg:grayscale transition-all shadow-md          lg:hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75"
                             })
                         })
                     ]
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "flex my-36 px-2 items-center",
+                    className: "flex flex-col lg:flex-row my-24 lg:my-36 px-2 items-center",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                             href: "https://arrington-tower.onrender.com",
-                            className: "w-full md:w-1/2",
+                            className: "w-full lg:w-1/2",
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 src: towerpreview,
                                 alt: "Tower Preview Picture",
-                                className: "rounded grayscale transition-all shadow-md          hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75"
+                                className: "rounded lg:grayscale transition-all shadow-md          lg:hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75"
                             })
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "ms-6 md:w-1/2",
+                            className: "lg:ms-6 w-full lg:w-1/2",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                    className: "text-text font-bold text-5xl mx-4",
+                                    className: "text-text font-bold text-3xl lg:text-5xl mx-4 mt-4 lg:mt-0",
                                     children: "Tower"
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: "text-text font-bold text-2xl my-4 mx-4",
+                                    className: "text-text font-bold text-lg lg:text-2xl my-4 mx-4",
                                     children: "Vue | ExpressJS | MongoDB"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -922,17 +1051,17 @@ function Applications({ applicationsRef }) {
                     ]
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "flex my-36 px-2 items-center",
+                    className: "flex flex-col lg:flex-row my-24 lg:my-36 px-2 items-center",
                     children: [
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "me-6 md:w-1/2",
+                            className: "me-0 lg:me-6 lg:w-1/2",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                    className: "text-text font-bold text-5xl mx-4",
+                                    className: "text-text font-bold text-3xl lg:text-5xl mx-4 mt-4 lg:mt-0",
                                     children: "Network"
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: "text-text font-bold text-2xl my-4 mx-4",
+                                    className: "text-text font-bold text-lg lg:text-2xl my-4 mx-4",
                                     children: "Vue | Auth0 | REST API"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -971,11 +1100,11 @@ function Applications({ applicationsRef }) {
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                             href: "https://the-network-fgx0.onrender.com",
-                            className: "w-full md:w-1/2",
+                            className: "-order-1 lg:order-2 w-full lg:w-1/2",
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 src: networkpreview,
                                 alt: "Network Preview Picture",
-                                className: "rounded grayscale transition-all shadow-md          hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75"
+                                className: "rounded lg:grayscale transition-all shadow-md          lg:hover:grayscale-0 hover:-translate-x-2 hover:-translate-y-2 hover:shadow-white/75"
                             })
                         })
                     ]
@@ -992,7 +1121,7 @@ function Applications({ applicationsRef }) {
 function Contact({ contactRef }) {
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         ref: contactRef,
-        className: "w-1/3 my-48 mx-auto",
+        className: "w-11/12 lg:w-1/3 my-48 mx-auto",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "w-full pb-8 px-2 rounded border-b-4 border-primary",
             children: [
@@ -1020,24 +1149,24 @@ function Contact({ contactRef }) {
 
 function Header({ aboutRef, experienceRef, applicationsRef, contactRef }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
-        className: "flex justify-between font-manrope bg-background text-text py-12 px-24",
+        className: "flex justify-between font-manrope bg-background text-text py-12 px-6 lg:px-24",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                 href: "/",
                 children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                    className: "text-2xl",
+                    className: "text-xl",
                     children: "Arrington.Mata"
                 })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "hidden md:flex",
+                className: "hidden lg:flex",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                         onClick: ()=>aboutRef.current.scrollIntoView({
                                 behavior: "smooth"
                             }),
                         title: "Scroll to About Me",
-                        className: "text-2xl cursor-pointer transition-all hover:text-primary",
+                        className: "text-xl cursor-pointer transition-all hover:text-primary",
                         children: "About Me"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -1045,7 +1174,7 @@ function Header({ aboutRef, experienceRef, applicationsRef, contactRef }) {
                                 behavior: "smooth"
                             }),
                         title: "Scroll to Experience",
-                        className: "text-2xl mx-6 cursor-pointer transition-all hover:text-primary",
+                        className: "text-xl mx-6 cursor-pointer transition-all hover:text-primary",
                         children: "Experience"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -1053,7 +1182,7 @@ function Header({ aboutRef, experienceRef, applicationsRef, contactRef }) {
                                 behavior: "smooth"
                             }),
                         title: "Scroll to Applications",
-                        className: "text-2xl cursor-pointer transition-all hover:text-primary",
+                        className: "text-xl cursor-pointer transition-all hover:text-primary",
                         children: "Applications"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -1061,13 +1190,13 @@ function Header({ aboutRef, experienceRef, applicationsRef, contactRef }) {
                                 behavior: "smooth"
                             }),
                         title: "Scroll to Contact",
-                        className: "text-2xl mx-6 cursor-pointer transition-all hover:text-primary",
+                        className: "text-xl mx-6 cursor-pointer transition-all hover:text-primary",
                         children: "Contact"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                         title: "Download Resume",
                         href: "files/ArringtonMataResume.pdf",
-                        className: "text-2xl cursor-pointer transition-all hover:text-primary hover:border-primary border-2 border-white px-2 rounded text-center",
+                        className: "text-xl cursor-pointer transition-all hover:text-primary hover:border-primary border-2 border-white px-2 rounded text-center",
                         download: true,
                         children: "Resume"
                     })
@@ -1119,14 +1248,14 @@ function Home() {
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
-                className: "w-1/2 mx-auto flex flex-col items-center",
+                className: "w-11/12 lg:w-1/2 mx-auto flex flex-col items-center py-10",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        className: "text-sm text-gray-400",
-                        children: "Made with NextJS and Tailwind CSS"
+                        className: "text-xs lg:text-sm text-gray-400",
+                        children: "Made with NextJS and Tailwind CSS by Arrington Mata"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                        className: "text-sm text-gray-400",
+                        className: "text-xs lg:text-sm text-gray-400",
                         href: "https://www.flaticon.com/free-icons/game-development",
                         title: "game-development icons",
                         children: "Game-development icons created by juicy_fish - Flaticon"
@@ -1135,7 +1264,7 @@ function Home() {
             })
         ]
     });
-} // Credit Icon in footer later
+}
 
 
 /***/ }),
